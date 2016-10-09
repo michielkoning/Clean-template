@@ -1,0 +1,15 @@
+.coaching {
+  @extend %pillar;
+  background-image: url('../images/bg-coaching.jpg');
+  background-position: left center;
+  color: #fff;
+
+  &__wrapper {
+    @extend %container;
+  }
+
+  &__text {
+    @extend %pillar__text;
+    float: right;
+  }
+}

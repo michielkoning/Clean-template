@@ -1,0 +1,16 @@
+<div class="menu" id="menu">
+  <div class="menu__wrapper">
+    <a href="#home" class="js-scroll"><img src="assets/images/logo.svg" alt="ZEE" class="menu__logo"></a>
+
+    <ul class="nav navbar-nav">
+      <li><a href="#about-us" class="js-scroll">Over ons</a></li>
+      {% for pillar in pillars %}
+      <li><a href="#{{pillar.id}}" class="js-scroll">{{pillar.title}}</a></li>
+      {% endfor %}
+      <li><a href="#contact" class="js-scroll">Contact</a></li>
+      <li><a href="#costs" class="js-scroll">Tarieven</a></li>
+    </ul>
+  </div>
+</div>
+
+

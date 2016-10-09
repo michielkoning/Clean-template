@@ -1,0 +1,44 @@
+footer {
+  @include clearfix();
+  @extend %content-row;
+  background: #666;
+  color: #fff;
+}
+
+.footer {
+
+  &__wrapper {
+    @extend %container;
+  }
+
+}
+
+.footer-col {
+  float: left;
+  width: 50%;
+  &:last-child {
+    padding-left: 1em;
+  }
+}
+
+.btn-mail,
+.btn-phone {
+  display: block;
+  padding-left: 1.5em;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 1.2em auto;
+  &:hover {
+    text-decoration: underline;
+    color: inherit;
+  }
+}
+
+.btn-mail {
+  background-image: url('../images/mail.svg');
+}
+
+.btn-phone {
+  background-image: url('../images/phone.svg');
+}

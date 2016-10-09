@@ -1,0 +1,7 @@
+{
+  "name": "zee",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "normalize-scss": "normalize.scss#^5.0.3"
+  }
+}

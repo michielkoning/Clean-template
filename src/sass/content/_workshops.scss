@@ -1,0 +1,9 @@
+.workshops {
+  @include clearfix();
+  @extend %content-row;
+  background: #eee;
+
+  &__wrapper {
+    @extend %container--sm;
+  }
+}

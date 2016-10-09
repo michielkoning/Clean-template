@@ -1,0 +1,12 @@
+<div class="staff" id="staff">
+  <a name="staff"></a>
+  <div class="staff__wrapper">
+    <h2>Wij zijn ZEE:</h2>
+    {% for user in staff %}
+    <div class="staff__item">
+      <img src="{{user.image}}" alt="{{user.name}}" class="staff__image">
+      {{user.name}}
+    </div>
+    {% endfor %}
+  </div>
+</div>

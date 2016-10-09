@@ -1,0 +1,19 @@
+%content-row {
+  @include clearfix();
+  padding: 4em 2em;
+  max-width: 96em;
+  margin: 0 auto;
+}
+
+%pillar {
+  @extend %content-row;
+  min-height: 45em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+
+  &__text {
+    width: #{(100% / 3) * 2};
+  }
+}

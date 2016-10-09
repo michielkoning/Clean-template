@@ -1,0 +1,20 @@
+.costs {
+  @extend %content-row;
+
+  &__wrapper {
+    @extend %container--sm;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.col-price {
+  width: 5em;
+}
+
+.star {
+  color: #F77474;
+  font-weight: 700;
+}

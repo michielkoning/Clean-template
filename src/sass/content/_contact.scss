@@ -1,0 +1,21 @@
+.contact {
+  @include clearfix();
+  @extend %content-row;
+  background: #eee;
+
+  &__wrapper {
+    @extend %container;
+  }
+
+  &__text {
+    float: left;
+    width: 50%;
+    padding-right: 1em;
+  }
+
+  &__form {
+    float: left;
+    width: 50%;
+    padding-left: 1em;
+  }
+}

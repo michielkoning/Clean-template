@@ -1,0 +1,7 @@
+.about-us {
+  @extend %content-row;
+
+  &__wrapper {
+    @extend %container--sm;
+  }
+}

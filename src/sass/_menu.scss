@@ -1,0 +1,52 @@
+.menu {
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: .5em 0;
+  @include clearfix();
+  transition: all ease-out .2s;
+
+  .sticky & {
+    background: #fff;
+    box-shadow: 0 0 3px #ccc;
+  }
+
+  &__wrapper {
+    @extend %container;
+  }
+
+  &__logo {
+    display: none;
+    float: left;
+    width: 4em;
+
+    .sticky & {
+      display: block;
+    }
+  }
+
+  ul {
+    list-style: none outside;
+    padding: 0;
+    display: flex;
+    float: right;
+    justify-content: space-around;
+    text-transform: uppercase;
+    margin-top: 1em;
+
+    li {
+
+      &.active a {
+        text-decoration: underline;
+      }
+    }
+
+    a {
+      display: block;
+      padding: 0 .5em;
+      color: $text-color;
+    }
+  }
+}

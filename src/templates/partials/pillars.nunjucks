@@ -1,0 +1,30 @@
+{% for pillar in pillars %}
+  <div class="{{pillar.id}}" id="{{pillar.id}}">
+    <a name="{{pillar.id}}"></a>
+    <div class="{{pillar.id}}__wrapper">
+      <div class="{{pillar.id}}__text">
+        <h2>{{pillar.title}}</h2>
+        <blockquote>{{pillar.quote}}</blockquote>
+        {% for paragraph in pillar.text %}
+          <p>{{paragraph}}</p>
+        {% endfor %}
+        {% if pillar.list %}
+        <ul>
+          {% for listItem in pillar.list %}
+          <li>{{listItem}}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if pillar.subtitle %}
+          <h3>{{pillar.subtitle}}</h3>
+        {% endif %}
+        {% if pillar.subtext %}
+          {% for paragraph in pillar.subtext %}
+            <p>{{paragraph}}</p>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+{% endfor %}

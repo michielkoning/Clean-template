@@ -1,0 +1,13 @@
+<header id="home">
+  <div class="header__wrapper">
+    <a name="home"></a>
+    <div class="header__row">
+      <div class="header__image">
+        <img src="assets/images/logo.svg" alt="" class="header__logo">
+      </div>
+      <div class="header__text">
+        <p class="lead">Wil jij gelukkig zijn, je vitaal voelen en een toekomst creëren die bij jou past?</p>
+      </div>
+    </div>
+  </div>
+</header>
