@@ -1,0 +1,11 @@
+{
+  "name": "ZEE",
+  "private": true,
+  "dependencies": {
+    "modernizr": "~2.8.3",
+    "normalize-scss": "normalize.scss#^5.0.3",
+    "scrollspy": "^0.1.3",
+    "smoothscroll": "^0.3.4",
+    "gumshoe": "https://github.com/cferdinandi/gumshoe.git#^3.3.1"
+  }
+}

@@ -1,0 +1,15 @@
+<nav class="menu js-menu" id="menu">
+  <div class="menu__wrapper">
+    <a href="#home" class="js-scroll"><img src="assets/images/logo.svg" alt="ZEE" class="menu__logo"></a>
+
+    <ul class="menu__list nav navbar-nav">
+      <li class="menu__item"><a href="#audience" class="js-scroll menu__link">Particulieren<br>&amp; bedrijven</a></li>
+      <li class="menu__item"><a href="#about-us" class="js-scroll menu__link">Filosofie</a></li>
+      <li class="menu__item"><a href="#physiotherapy" class="js-scroll menu__link">Fysiotherapie</a></li>
+      <li class="menu__item"><a href="#coaching" class="js-scroll menu__link">Coaching &amp;<br>counseling</a></li>
+      <li class="menu__item"><a href="#development" class="js-scroll menu__link menu__link menu__link--development">Persoonlijke<br>ontwikkeling</a></li>
+      <li class="menu__item"><a href="#costs" class="js-scroll menu__link">Tarieven</a></li>
+      <li class="menu__item"><a href="#contact" class="js-scroll menu__link">Contact</a></li>
+    </ul>
+  </div>
+</nav>
