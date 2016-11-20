@@ -1,0 +1,25 @@
+
+    <div class="staff">
+      <div class="staff__wrapper">
+        <h2 class="staff__title">Wij zijn ZEE</h2>
+        <ul class="staff__list">
+
+          {% for user in staff %}
+          <li class="staff__item">
+
+            <picture class="staff__picture">
+              <source srcset="{{user.image}}.webp" type="image/webp">
+              <img src="{{user.image}}.jpg" alt="{{user.name}}" class="staff__image">
+            </picture>
+
+            <a href="{{user.linkedin}}" class="staff__name" target="_blank">
+              <svg class="staff__icon">
+                <use xlink:href="assets/images/icons.svg#linkedin" />
+              </svg>
+              {{user.name}}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>

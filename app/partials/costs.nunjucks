@@ -1,0 +1,75 @@
+<a id="costs" class="costs__anchor"></a>
+<div class="costs">
+  <div class="costs__wrapper">
+    <h2>Tarieven</h2>
+
+    <div class="costs__row">
+      <div class="costs__col">
+        <h3>Particulieren</h3>
+
+        <h4>Fysiotherapie</h4>
+        <table class="costs__overview">
+          <tr>
+            <td class="col__label">Sessie 30 minuten</td>
+            <td class="col__price">&euro; 35</td>
+          </tr>
+          <tr>
+            <td class="col__label">Sessie 60 minuten</td>
+            <td class="col__price">&euro; 70</td>
+          </tr>
+          <tfoot>
+            <tr>
+              <td colspan="2">Afhankelijk van uw zorgverzekering en pakket wordt de behandeling geheel of gedeeltelijk vergoed. Fysiotherapie is vrijgesteld van BTW</td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <h4>Coaching &amp; Counseling / Persoonlijke ontwikkeling</h4>
+        <table class="costs__overview">
+          <tr>
+            <td class="col__label">Intakegesprek</td>
+            <td class="col__price">&euro; 65 (incl. BTW)</td>
+          </tr>
+          <tr>
+            <td class="col__label">Individuele sessie</td>
+            <td class="col__price">&euro; 65 (incl. BTW)</td>
+          </tr>
+        </table>
+
+      </div>
+
+      <div class="costs__col">
+        <h3>Bedrijven</h3>
+
+        <h4>Workshops/trainingen voor groepen van ca. 10 personen</h4>
+        <table class="costs__overview">
+          <tr>
+            <td class="col__label">Per dagdeel incl. materiaal</td>
+            <td class="col__price">&euro; 2.000 (excl. BTW)</td>
+          </tr>
+          <tfoot>
+            <tr>
+              <td colspan="2">Afhankelijk van uw behoefte wordt in overleg een aanbod op maat gemaakt. De bovenstaande tarieven zijn een indicatie.</td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <h4>Intervisietrajecten voor groepen tussen 4-6 personen</h4>
+        <table class="costs__overview">
+          <tr>
+            <td class="col__label">Per traject van 5 bijeenkomsten</td>
+            <td class="col__price">&euro; 2.000 (excl. BTW)</td>
+          </tr>
+          <tfoot>
+            <tr>
+              <td colspan="2">Afhankelijk van uw behoefte wordt in overleg een aanbod op maat gemaakt. De bovenstaande tarieven zijn een indicatie.</td>
+            </tr>
+          </tfoot>
+        </table>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
