@@ -1,0 +1,23 @@
+@mixin mq($media){
+
+  @if $media == extra-small {
+    @media (min-width: $screen-xs) {
+      @content;
+    }
+  }
+  @if $media == small {
+    @media (min-width: $screen-sm) {
+      @content;
+    }
+  }
+  @else if $media == medium {
+    @media (min-width: $screen-md) {
+      @content;
+    }
+  }
+  @else if $media == large {
+    @media (min-width: $screen-lg) {
+      @content;
+    }
+  }
+}

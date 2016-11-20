@@ -1,0 +1,19 @@
+.coaching {
+  @extend %pillar;
+  @include background-image("bg-coaching");
+  background-position: left top;
+  color: #fff;
+
+  &__wrapper {
+    @extend %container;
+  }
+
+  &__text {
+    @extend %pillar__text;
+    float: right;
+  }
+
+  &__anchor {
+    @extend %anchor;
+  }
+}

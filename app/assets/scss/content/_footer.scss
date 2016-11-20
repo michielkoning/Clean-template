@@ -1,0 +1,26 @@
+.footer {
+  @extend %content-row;
+  background: #666;
+  color: #fff;
+
+  &__wrapper {
+    @extend %container;
+  }
+
+  &__contact-link {
+    color: #fff;
+    @extend %contact-info;
+  }
+
+  &__icon {
+    @extend %contact-info__icon;
+  }
+}
+
+.footer-col {
+  float: left;
+  width: 50%;
+  &:last-child {
+    padding-left: 1em;
+  }
+}

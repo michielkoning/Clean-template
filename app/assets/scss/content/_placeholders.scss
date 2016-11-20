@@ -1,0 +1,60 @@
+%anchor {
+  position: relative;
+  top: (-1 * $menu-height-md);
+
+  @include mq(large){
+    top: (-1 * $menu-height-lg);
+  }
+  display: block;
+}
+
+%content-row {
+  @include clearfix();
+  padding: 2em 0 4em;
+  @include mq(medium) {
+    padding: 4em 0 8em;
+  }
+
+  &__text {
+    padding-bottom: 5em;
+  }
+
+}
+
+%pillar {
+  @extend %content-row;
+  min-height: 45em;
+  display: flex;
+  align-items: center;
+
+  &__text {
+    @include mq(medium) {
+      width: #{(100% / 3) * 2};
+    }
+  }
+}
+
+%contact-info {
+  display: block;
+  padding-left: 1.5em;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 1.2em auto;
+  position: relative;
+
+  &:hover {
+    text-decoration: underline;
+    color: inherit;
+  }
+
+  &__icon {
+    left: 0;
+    top: 50%;
+    margin-top: -.5em;
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+
+  }
+}

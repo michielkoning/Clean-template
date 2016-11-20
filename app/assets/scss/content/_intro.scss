@@ -1,0 +1,44 @@
+.intro {
+  @include background-image("bg-intro");
+  line-height: 2;
+  font-size: 1.2em;
+  padding: 4em 0 2em;
+  background-position: top center;
+  position: relative;
+
+  @include mq(small) {
+    margin-top: 8em;
+    font-size: 1.4em;
+    padding: 12em 0 10em;
+  }
+
+  @include mq(medium) {
+    margin-top: 6em;
+  }
+
+
+  &__anchor {
+    @extend %anchor;
+  }
+
+  &__lead {
+    position: relative;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  &__wrapper {
+    @extend %container--sm;
+  }
+
+  ul {
+    @include list-unstyled();
+    padding-bottom: 2em;
+  }
+
+
+}

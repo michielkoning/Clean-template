@@ -1,0 +1,19 @@
+.physiotherapy {
+  @extend %pillar;
+  @include background-image("bg-fysio");
+  background-position: right center;
+  color: #fff;
+
+  &__wrapper {
+    @extend %container;
+  }
+
+  &__text {
+    @extend %pillar__text;
+  }
+
+  &__anchor {
+    @extend %anchor;
+  }
+
+}

@@ -1,0 +1,13 @@
+.workshops {
+  @extend %content-row;
+  background: $gray;
+
+  &__wrapper {
+    @extend %container--sm;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,49 @@
+%gutter {
+  padding-left:  $grid-gutter-width-sm / 2;
+  padding-right: $grid-gutter-width-sm / 2;
+  @include mq (small) {
+    padding-left:  $grid-gutter-width / 2;
+    padding-right: $grid-gutter-width / 2;
+  }
+}
+
+%container {
+  @include clearfix;
+  @extend %gutter;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  max-width: 72em;
+
+  padding-left:  $grid-gutter-width-sm;
+  padding-right: $grid-gutter-width-sm;
+  @include mq (small) {
+    padding-left:  $grid-gutter-width;
+    padding-right: $grid-gutter-width;
+  }
+
+}
+
+%container--sm {
+  @extend %container;
+  max-width: 48em;
+}
+
+%container--xs {
+  @extend %container;
+  max-width: 30em;
+}
+
+%row {
+  margin: 0 (-1 * $grid-gutter-width-sm / 2);
+  @include mq (small) {
+    margin: 0 (-1 * ($grid-gutter-width / 2));
+  }
+
+  @include clearfix();
+}
+
+%col {
+  @extend %gutter;
+}

@@ -1,0 +1,17 @@
+.about-us {
+  @extend %content-row;
+  background-color: $gray;
+
+  &__wrapper {
+    @extend %container--sm;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__anchor {
+    @extend %anchor;
+  }
+
+}

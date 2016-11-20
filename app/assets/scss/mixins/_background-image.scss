@@ -1,0 +1,27 @@
+@mixin background-image($image) {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .webp & {
+    background-image: url('../images/#{$image}.webp?v=2');
+  }
+
+  .no-js &,
+  .no-webp & {
+    background-image: url('../images/#{$image}.jpg?v=2');
+  }
+
+  @include mq(medium) {
+    .webp & {
+      background-image: url('../images/#{$image}@2x.webp?v=2');
+    }
+
+    .no-js &,
+    .no-webp & {
+      background-image: url('../images/#{$image}@2x.jpg?v=2');
+    }
+  }
+
+
+}

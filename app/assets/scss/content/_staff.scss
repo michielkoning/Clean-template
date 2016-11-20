@@ -1,0 +1,51 @@
+.staff {
+  margin-top: 2em;
+  @include clearfix();
+
+  &__wrapper {
+    @extend %container--sm;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  &__list {
+    @include clearfix();
+    @include list-unstyled;
+    margin: 0 -1em;
+  }
+
+  &__item {
+    padding: 1em 0;
+    text-align: center;
+
+    @include mq(small) {
+      float: left;
+      width: #{(100% / 3)};
+    }
+  }
+
+  &__image {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 1em;
+    border-radius: 50%;
+  }
+
+  &__name {
+    color: $text-color;
+    &:hover {
+      color: $text-color;
+    }
+  }
+
+  &__icon {
+    @extend %contact-info__icon;
+    position: relative;
+    top: .1em;
+    fill: #2486bb;
+  }
+
+}

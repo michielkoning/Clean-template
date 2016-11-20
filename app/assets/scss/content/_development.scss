@@ -1,0 +1,18 @@
+.development {
+  @extend %pillar;
+  @include background-image("bg-development");
+  background-position: right center;
+  color: #fff;
+
+  &__wrapper {
+    @extend %container;
+  }
+
+  &__text {
+    @extend %pillar__text;
+  }
+
+  &__anchor {
+    @extend %anchor;
+  }
+}

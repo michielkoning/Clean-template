@@ -1,0 +1,93 @@
+.contact {
+  @extend %content-row;
+  background: #666;
+  color: #fff;
+
+  &__anchor {
+    @extend %anchor;
+  }
+
+  &__wrapper {
+    @extend %container;
+  }
+
+  &__intro {
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__row {
+    @extend %row;
+  }
+
+
+
+  &__text,
+  &__staff {
+    @extend %col;
+
+    @include mq(extra-small) {
+      float: left;
+      width: 50%;
+    }
+    @include mq(medium) {
+      width: #{(100% / 3)};
+    }
+  }
+
+  &__form {
+    @extend %col;
+    clear: both;
+
+    @include mq(medium) {
+      clear: none;
+      float: left;
+      width: #{(100% / 3)};
+    }
+  }
+
+  &__organisation {
+    margin: 0 0 ($line-height-computed / 2);
+  }
+
+  &__staff-item {
+    margin: 0 0 ($line-height-computed / 2);
+  }
+
+  &__financial {
+    margin-top: 4.25em;
+  }
+
+  &__linkedin,
+  &__phone,
+  &__mail {
+    @extend %contact-info;
+    color: #fff;
+  }
+
+  &__icon {
+    @extend %contact-info__icon;
+  }
+
+  &__btn-route,
+  &__btn-send {
+    @extend %btn;
+    // background: #212121;
+    // &:hover {
+    //   background: darken(#212121, 15%);
+    // }
+  }
+
+  &__btn-route {
+    margin-bottom: 2em;
+  }
+
+
+  &__anchor {
+    @extend %anchor;
+  }
+}

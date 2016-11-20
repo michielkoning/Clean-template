@@ -1,0 +1,67 @@
+.audience {
+  @extend %content-row;
+
+  &__lead {
+    text-align: center;
+    font-size: 1.4em;
+  }
+
+  &__wrapper {
+    @extend %container;
+  }
+
+  p {
+    padding-bottom: 2em;
+  }
+
+  &__row {
+    @extend %row;
+  }
+
+  &__text {
+    @extend %col;
+    @include mq(medium) {
+      width: 50%;
+      float: left;
+    }
+  }
+
+  &__anchor {
+    @extend %anchor;
+  }
+
+  &__image {
+    @extend %col;
+    @include mq(medium) {
+      width: 50%;
+      float: left;
+    }
+  }
+
+  &__infographic {
+    display: block;
+    margin: 3em auto;
+    @include mq(medium) {
+      float: right;
+    }
+    max-width: 25em;
+  }
+
+  &__link {
+    color: $text-color;
+    text-decoration: underline;
+  }
+
+  &__companies,
+  &__individuals {
+    @extend %col;
+    @include mq(small) {
+      float: left;
+      width: 50%;
+    }
+    @include mq(medium) {
+      float: none;
+      width: auto;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+table {
+	width: calc(100% + 1em);
+	margin: 0 -.5em;
+	margin-bottom: $line-height-computed;
+	ul {
+		margin-bottom: 0;
+	}
+}
+
+td {
+	padding: .5em .5em;
+	vertical-align: top;
+	&:first-child {
+		@include mq(small) {
+			width: 16em;
+		}
+	}
+}
+
+tbody tr:nth-child(odd) td {
+	background: $gray-light;
+}
+
+tfoot td {
+	font-size: .8em;
+	padding: 0 .5em;
+}
+
+@media (max-width: $screen-xs) {
+	tbody, tfoot, tr, td {
+    display: block;
+	}
+
+	td {
+		&:first-child:after {
+			content: ":";
+		}
+		&:first-child {
+			padding-bottom: 0;
+		}
+		&:last-child {
+			padding-top: 0;
+		}
+	}
+
+	tbody td:first-child {
+		font-size: 1.1em;
+	}
+
+}
