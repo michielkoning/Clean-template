@@ -4,9 +4,7 @@ module.exports = {
   goToTarget: function(event) {
     event.preventDefault();
     var link = event.target;
-    var targetId = link.getAttribute('href');
-    targetId = targetId.replace('#', '');
-    var target = 'a[name=' + targetId + ']';
+    var target = link.getAttribute('href');
 
     document.querySelector(target).scrollIntoView({
       behavior: 'smooth'

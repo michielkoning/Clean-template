@@ -13,7 +13,7 @@ module.exports = {
 
     //create request
     var request = new XMLHttpRequest();
-    request.open('POST', "http://localhost/zee/app/ajax/mail.php", true);
+    request.open('POST', "ajax/mail", true);
     request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
     request.send(encodeURI(data));
     request.onload = function() {

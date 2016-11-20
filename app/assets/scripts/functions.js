@@ -1,6 +1,7 @@
 var scroll    = require('./scroll');
-var gumshoe = require('gumshoe');
+var gumshoe   = require('gumshoe');
 var contact   = require('./contact');
+var ga        = require('./ga');
 
 document.addEventListener('DOMContentLoaded', function() {
 

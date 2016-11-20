@@ -1,7 +1,7 @@
 <?php
 
-//define('MAILTO', 'info@zeeinbeweging.nl');
-define('MAILTO', 'mail@michielkoning.nl');
+define('MAILTO', 'info@zeeinbeweging.nl');
+//define('MAILTO', 'mail@michielkoning.nl');
 
 if (!isset($_POST['name'])) exit();
 
@@ -55,4 +55,4 @@ $body    .= '</body></html>';
 
 mail($mailTo, $subject, $body, $headers);
 
-exit("Bedankt voor het bericht. We zullen zo spoedig mogelijk contact met u opnemen");
+exit("Bedankt voor het bericht. We zullen zo spoedig mogelijk contact met je opnemen");

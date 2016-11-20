@@ -44,8 +44,8 @@ module.exports = {
     }
   },
   nunjucks: {
-    src: src + '/*.nunjucks',
-    templateDir: src,
+    src: src + '/templates/*.nunjucks',
+    templateDir: src + '/templates/',
     data: src + '/data/data.json',
     dest: development
   },
@@ -210,7 +210,10 @@ module.exports = {
     }
   },
   files: {
-    files: src + '/files/**/*',
+    src: [
+      src + '/files/**/*',
+      src + '/files/.htaccess'
+    ],
     dest: production
   }
 };
