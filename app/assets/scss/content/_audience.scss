@@ -47,11 +47,6 @@
     max-width: 25em;
   }
 
-  &__link {
-    color: $text-color;
-    text-decoration: underline;
-  }
-
   &__companies,
   &__individuals {
     @extend %col;

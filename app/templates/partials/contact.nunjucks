@@ -6,28 +6,23 @@
 
 
       <div class="contact__text">
-        <!--
-          <h3>Adres &amp; Route</h3>
-          <div itemscope itemtype="http://schema.org/Organization" class="contact__organisation">
-            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-              <span itemprop="streetAddress">{{address.street}}</span><br>
-              <span itemprop="postalCode">{{address.zipcode}}</span>
-              <span itemprop="addressLocality">{{address.city}}</span>
-            </div>
-            <a href="mailto:{{address.email}}" class="contact__mail">
-              <svg class="contact__icon">
-                <use xlink:href="assets/images/icons.svg#mail" />
-              </svg>
-              <span itemprop="email">{{address.email}}</span></a>
-            <a href="{{address.linkedin}}" class="contact__linkedin">
-              <svg class="contact__icon">
-                <use xlink:href="assets/images/icons.svg#linkedin" />
-              </svg>
-              {{title}}</a>
-          </div>
-          <a href="https://maps.google.com/?daddr=Amersfoortsestraat+124,Soesterberg" target="_blank" class="contact__btn-route">Routebeschrijving</a>
-        -->
 
+        <h3>Adres &amp; Route</h3>
+        <div itemscope itemtype="http://schema.org/Organization" class="contact__organisation">
+          <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="streetAddress">{{address.street}}</span><br>
+            <span itemprop="postalCode">{{address.zipcode}}</span><br>
+            <span itemprop="addressLocality">{{address.city}}</span><br>
+            {{address.location}}
+          </div>
+          <a href="mailto:{{address.email}}" class="contact__mail">
+            <svg class="contact__icon">
+              <use xlink:href="assets/images/icons.svg#mail" />
+            </svg>
+            <span itemprop="email">{{address.email}}</span></a>
+
+        </div>
+        <a href="https://maps.google.com/?daddr=Ruimtevaart+50-56,Amersfoort" rel="noreferrer" target="_blank" class="contact__btn-route">Routebeschrijving</a>
         <h3>Bedrijfsgegevens</h3>
         <h4>KVK nummer</h4>
         <p>
@@ -37,7 +32,20 @@
         <p>
           {{address.VAT}}
         </p>
+        <p>
+          <a href="{{filesUrl}}algemene-voorwaarden.pdf" class="contact__pdf" target="_blank">
+            <svg class="contact__icon">
+              <use xlink:href="assets/images/icons.svg#pdf" />
+            </svg>
+            Algemene voorwaarden</a>
+        </p>
+        <p>Aangesloten bij
 
+          <a href="https://www.kngf.nl/" title="KNGF" rel="noreferrer" target="_blank">KNGF</a>
+          &amp;
+          <a href="https://www.kngf.nl/vakgebied/kwaliteit/ckr.html" title="CKR" rel="noreferrer" target="_blank">CKR</a>
+        </p>
+        <p><a href="https://www.bigregister.nl/" title="BIG" rel="noreferrer" target="_blank">BIG</a> geregistreerd</p>
       </div>
 
       <div class="contact__staff">
@@ -57,7 +65,7 @@
               </svg>
               <span itemprop="email">{{user.email}}</span>
             </a>
-            <a href="{{user.linkedin}}" class="contact__linkedin" target="_blank">
+            <a href="{{user.linkedin}}" class="contact__linkedin" target="_blank" rel="noreferrer">
               <svg class="contact__icon">
                 <use xlink:href="assets/images/icons.svg#linkedin" />
               </svg>
@@ -65,6 +73,18 @@
             </a>
           </div>
         {% endfor %}
+        <div class="contact__follow-us">
+          <a href="{{address.linkedin}}" class="contact__social" target="_blank" rel="noreferrer">
+            <svg class="contact__social-icon">
+              <use xlink:href="assets/images/icons.svg#linkedin" />
+            </svg>
+          </a>
+          <a href="{{address.instagram}}" class="contact__social" target="_blank" rel="noreferrer">
+            <svg class="contact__social-icon">
+              <use xlink:href="assets/images/icons.svg#instagram" />
+            </svg>
+          </a>
+        </div>
       </div>
 
       <div class="contact__form">

@@ -1,5 +1,6 @@
 {
   "title": "Zee in beweging",
+  "filesUrl": "https://files.zeeinbeweging.nl/",
   "intro": [
     "Fysiek en mentaal in balans komen? Langdurig  en vitaal participeren op de arbeidsmarkt? Vanuit innerlijke kracht richting geven aan persoonlijke doelstellingen?",
     "Bij ZEE staat persoonlijk contact, hoge kwaliteit en betrokkenheid centraal zodat onze cliënten bereiken wat zij willen."
@@ -25,9 +26,9 @@
         "Iedere persoon geven we een unieke behandeling op maat. We gaan samen met jou op zoek naar de oorzaak van de klacht en behandelen deze door middel van specifieke behandeltechnieken. Het zelfherstellende vermogen van het lichaam staat hierbij centraal. Naast onze fysiotherapeutische technieken maken we ook gebruik van de laatste wetenschappelijke inzichten op het gebied van topsport. Bij ons verdient ieder mens een aanpak op topsportniveau. We kunnen je helpen bij een grote verscheidenheid aan klachten:"
       ],
       "list": [
-        "Acute klachten ontstaan tijdens sport of in het dagelijks leven.",
-        "Langdurige klachten die niet of onvoldoende herstellen.",
-        "Gevoel van verminderde belastbaarheid."
+        "Acute klachten ontstaan tijdens sport of in het dagelijks leven",
+        "Langdurige klachten die niet of onvoldoende herstellen",
+        "Gevoel van verminderde belastbaarheid"
       ]
     },
     {
@@ -36,33 +37,39 @@
       "quote": "Samen werken we aan jouw innerlijke kracht zodat je ruimte krijgt om het beste uit jezelf te halen en zo je eigen toekomst te creëren.",
       "text": [
         "Ons doel is mensen van binnenuit sterker maken zodat ze vanuit wie ze echt zijn stappen kunnen zetten.",
-        "De kracht van onze manier van werken zit in de persoonlijke benadering, de innerlijke diepgang en het gebruik van methoden uit verschillende stromingen. Wij stemmen onze manier van werken volledig af op jou als persoon. Je werkt aan wat jij nodig hebt om grip te kunnen krijgen op je situatie. ",
-        "Bij de methoden die we toepassen kom je uit je vaste denkpatronen en ontstaat ruimte om op een diep innerlijk niveau oorzaken en oplossingen voor je situatie te vinden. Als je van binnen je blokkades of belemmeringen aanpakt merk je dat dit op alles in je dagelijks leven doorwerkt."
+        "De kracht van onze manier van werken zit in de persoonlijke benadering, de innerlijke diepgang en het gebruik van methoden uit verschillende stromingen. Als integratieve Coach & Counselor stemmen wij onze manier van werken volledig af op jou als persoon. Je werkt aan wat jij nodig hebt om grip te kunnen krijgen op je situatie.",
+        "Bij de methoden die we toepassen kom je uit je vaste denkpatronen en ontstaat ruimte om op een diep innerlijk niveau oorzaken en oplossingen voor je situatie te vinden. Als je van binnen je blokkades of belemmeringen aanpakt, merk je dat dit op alles in je dagelijks leven doorwerkt."
       ],
       "list": [
         "Werk-prive balans",
-        "Stress of verminderde balans",
+        "Stress klachten",
         "Neerslachtige gevoelens",
         "Zelfvertrouwen en assertiviteit",
         "Omgaan met familieomstandigheden",
-        "Vinden van passie"
+        "Relatie therapie (integratieve benadering)",
+        "Traumaverwerking (o.a. EMDR)"
+      ],
+      "subtext": [
+        "Ben je geïnteresseerd? Neem dan <a href='#contact' class='js-scroll'>contact</a> met ons op voor een gratis intakegesprek!"
       ]
     },
     {
       "id" : "development",
       "title": "Persoonlijke ontwikkeling",
-      "quote": "Samen werken aan jouw persoonlijke vaardigheden om je eigen carrière vorm te geven",
+      "quote": "Samen werken we aan jouw persoonlijke vaardigheden om je loopbaan vorm te geven.",
       "text": [
-        "Welke carrièrestap wil je op korte termijn maken of waar wil je over 5 jaar staan en welke competenties heb je hiervoor nodig? Je leert bij ons om jouw kwaliteiten optimaal in te zetten zodat je de vaardigheden ontwikkelt die je nodig hebt voor het vormgeven van je eigen toekomst.",
+        "Welke stap wil je op korte termijn maken, waar wil je over 5 jaar staan en welke competenties heb je hiervoor nodig? Je leert bij ons om jouw kwaliteiten optimaal in te zetten zodat je de vaardigheden ontwikkelt die je nodig hebt voor het vormgeven van je eigen toekomst.",
         "In overleg stellen we een persoonlijk plan op. Dit plan zal gericht zijn op de groei die je graag wil doormaken al dan niet in lijn met de strategie en afdelingsdoelstellingen van je werkgever. Jouw plan dient als basis voor onze begeleiding waarbij ervaringsgericht leren centraal staat.",
-        "Onze aanpak gaat uit van jouw talenten als uitgangspunt voor je verdere ontwikkeling. Op deze manier kan je vanuit je eigen kracht het verschil gaan maken voor jezelf en je werkgever. Dit kan tevens plaatsvinden in de vorm van een intervisietraject in teamverband."
+        "Onze aanpak neemt jouw talenten als uitgangspunt voor je verdere ontwikkeling. Op deze manier kan je vanuit je eigen kracht het verschil gaan maken voor jezelf en je (potentiële) werkgever. Dit kan tevens plaatsvinden in de vorm van een intervisietraject in teamverband."
       ]
+
+
     }
   ],
   "workshops": {
     "title": "Workshops/trainingen",
     "text": [
-      "Wij geven diverse trainingen en workshops, met verschillende thema's. Onze trainingen en workshops onderscheiden zich door een ervaringsgerichte aanpak die het leerproces verdiepen en versnellen. Bovendien begeleiden we intervisietrajecten bij bedrijven ter ondersteuning van (zelfsturende)teams en ten behoeve van de individuele ontwikkeling. Naast het reguliere aanbod kunt u altijd contact opnemen voor een training of workshop op maat. Deze kunnen in overleg plaatsvinden op iedere gewenste locatie."
+      "Wij geven diverse trainingen en workshops, met verschillende thema's. Onze trainingen en workshops onderscheiden zich door een ervaringsgerichte aanpak die het leerproces verdiepen en versnellen. Bovendien begeleiden we intervisietrajecten bij bedrijven ter ondersteuning van (zelfsturende) teams en ten behoeve van de individuele ontwikkeling. Naast het reguliere aanbod kunt u altijd contact opnemen voor een training of workshop op maat. Deze kunnen in overleg plaatsvinden op iedere gewenste locatie."
     ]
   },
   "contact": {
@@ -92,16 +99,14 @@
     }
   ],
   "address": {
-    "street": "Amersfoortsestraat 124",
-    "zipcode": "3769 AN",
-    "city": "Soesterberg",
+    "street": "Ruimtevaart 54",
+    "zipcode": "3824 MX",
+    "city": "Amersfoort",
     "email": "info@zeeinbeweging.nl",
-    "linkedin": "",
+    "location": "Gevestigd in Oogziekenhuis Zonnestraal (2e etage)",
+    "linkedin": "https://www.linkedin.com/company/17882043",
+    "instagram": "https://www.instagram.com/zeeinbeweging/",
     "KVK": "66937329",
     "VAT": "856760079B01"
   }
 }
-
-
-
-

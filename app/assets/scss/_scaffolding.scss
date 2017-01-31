@@ -42,13 +42,12 @@ textarea {
 
 // Links
 a {
-  color: $link-color;
-  text-decoration: none;
+  color: inherit;
+  text-decoration: underline;
 
   &:hover,
   &:focus {
     text-decoration: underline;
-    color: $link-color;
   }
 
   &:focus {

@@ -12,7 +12,7 @@
           </div>
           <div class="audience__companies">
             <h2>Bedrijven</h2>
-            <p>{{audience.bedrijven}} <a href="documents/zee-flyer-bedrijven.pdf" class="audience__link" target="_blank">Lees meer</a>.</p>
+            <p>{{audience.bedrijven}} <a href="{{filesUrl}}innovatieve-aanpak.pdf" class="audience__link" target="_blank">Lees meer</a>.</p>
           </div>
          </div>
       </div>

@@ -6,6 +6,10 @@
   background-position: top center;
   position: relative;
 
+  &__title {
+    display: none;
+  }
+
   @include mq(small) {
     margin-top: 8em;
     font-size: 1.4em;

@@ -3,6 +3,7 @@
   background: #666;
   color: #fff;
 
+
   &__anchor {
     @extend %anchor;
   }
@@ -23,8 +24,6 @@
   &__row {
     @extend %row;
   }
-
-
 
   &__text,
   &__staff {
@@ -63,14 +62,25 @@
   }
 
   &__linkedin,
+  &__pdf,
   &__phone,
   &__mail {
     @extend %contact-info;
-    color: #fff;
   }
 
   &__icon {
     @extend %contact-info__icon;
+  }
+
+  &__social {
+    display: inline-block;
+    margin-right: .25em;
+  }
+
+  &__social-icon {
+    fill: #fff;
+    width: 2em;
+    height: 2em;
   }
 
   &__btn-route,
@@ -89,5 +99,9 @@
 
   &__anchor {
     @extend %anchor;
+  }
+
+  &__follow-us {
+    padding-top: 1em;
   }
 }

@@ -1,13 +1,14 @@
-var scroll    = require('./scroll');
-var gumshoe   = require('gumshoe');
-var contact   = require('./contact');
-var ga        = require('./ga');
+var scroll        = require('./scroll');
+var gumshoe       = require('gumshoe');
+var contact       = require('./contact');
+var ga            = require('./ga');
+var serviceWorker = require('./service-worker');
 
 document.addEventListener('DOMContentLoaded', function() {
 
   [].forEach.call( document.querySelectorAll('.js-scroll'), function (link) {
     link.addEventListener( 'click', function (event) {
-      scroll.goToTarget(event);
+      scroll.goToTarget(this, event);
     }, false );
   });
 

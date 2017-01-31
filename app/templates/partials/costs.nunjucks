@@ -1,7 +1,7 @@
 <a id="costs" class="costs__anchor"></a>
 <div class="costs">
   <div class="costs__wrapper">
-    <h2>Tarieven</h2>
+    <h2>Tarieven &amp; aanbod</h2>
 
     <div class="costs__row">
       <div class="costs__col">
@@ -19,53 +19,66 @@
           </tr>
           <tfoot>
             <tr>
-              <td colspan="2">Afhankelijk van uw zorgverzekering en pakket wordt de behandeling geheel of gedeeltelijk vergoed. Fysiotherapie is vrijgesteld van BTW</td>
+              <td colspan="2">
+Afhankelijk van uw zorgverzekering en pakket wordt de behandeling geheel of gedeeltelijk vergoed. <a href="{{filesUrl}}brochure-contractvrije-zorg-en-vergoeding.pdf" title="Meer informatie over vergoeding" target="_blank">Meer informatie</a> over de vergoeding en contractvrije zorg.
+              </td>
             </tr>
           </tfoot>
         </table>
 
-        <h4>Coaching &amp; Counseling / Persoonlijke ontwikkeling</h4>
+        <h4>Coaching &amp; Counseling</h4>
         <table class="costs__overview">
           <tr>
-            <td class="col__label">Intakegesprek</td>
-            <td class="col__price">&euro; 65 (incl. BTW)</td>
+            <td class="col__label">Intake (30 min.)</td>
+            <td class="col__price">Gratis</td>
           </tr>
           <tr>
             <td class="col__label">Individuele sessie</td>
-            <td class="col__price">&euro; 65 (incl. BTW)</td>
+            <td class="col__price">&euro; 65</td>
+          </tr>
+         <tr>
+            <td class="col__label">Relatie therapie (90 min.)</td>
+            <td class="col__price">&euro; 90</td>
           </tr>
         </table>
+
+        <h4>Persoonlijke ontwikkeling</h4>
+        <table class="costs__overview">
+          <tr>
+            <td class="col__label">Intake (30 min.)</td>
+            <td class="col__price">Gratis</td>
+          </tr>
+          <tr>
+            <td class="col__label">Individuele begeleiding (60 min.)</td>
+            <td class="col__price">&euro; 65</td>
+          </tr>
+          <tr>
+            <td class="col__label">Vanaf 2 personen (45 min. pp)</td>
+            <td class="col__price">&euro; 50 pp</td>
+          </tr>
+          <tfoot>
+            <tr>
+              <td colspan="2">Aarzel niet om een afspraak te maken voor een gratis intakegesprek!</td>
+            </tr>
+          </tfoot>
+        </table>
+
 
       </div>
 
       <div class="costs__col">
         <h3>Bedrijven</h3>
+        <p>Neem vrijblijvend contact met ons op voor meer informatie over onderstaande diensten.</p>
+        <h4>Workshops (8-12 personen)</h4>
+        <p>Uw doelstelling staat centraal bij het ontwikkelen van onze workshops op maat. Iedere workshop wordt opgebouwd vanuit onze pijlers: fysiek, mentaal en competentie- ontwikkeling. Door deze drie pijlers te combineren wordt een langdurig en diepgaand resultaat gerealiseerd. Thema’s waar u aan kunt denken zijn: zelfsturing, samenwerken, pro-activiteit, creativiteit, persoonlijke effectiviteit.</p>
+        <p>Workshop <a href="{{filesUrl}}workshop-een-energieke-start.pdf" title="Een energieke start" target="_blank">&lsquo;Een energieke start&rsquo;</a></p>
+        <h4>Intervisietrajecten (2-6 personen)</h4>
+        <p>In kleine groepen wordt onder professionele begeleiding gewerkt aan zowel individuele groei als groepsontwikkeling. Het intervisie-team wordt gecoacht op zelfsturing en zelf lerend vermogen.</p>
+        <h4>Loopbaanplanning (1-4 personen)</h4>
+        <p>In samenwerking breng je jouw langetermijn doelstelling in kaart. Dit vormt vervolgens de basis voor je loopbaanplan waarbij je vanuit bestaande kwaliteiten een ontwikkelplan maakt.</p>
+        <h4>Individuele Coaching &amp; Counseling</h4>
+        <p>Samen werken we aan jouw innerlijke kracht zodat je ruimte krijgt om het beste uit jezelf te halen en zo je eigen toekomst te creëren.</p>
 
-        <h4>Workshops/trainingen voor groepen van ca. 10 personen</h4>
-        <table class="costs__overview">
-          <tr>
-            <td class="col__label">Per dagdeel incl. materiaal</td>
-            <td class="col__price">&euro; 2.000 (excl. BTW)</td>
-          </tr>
-          <tfoot>
-            <tr>
-              <td colspan="2">Afhankelijk van uw behoefte wordt in overleg een aanbod op maat gemaakt. De bovenstaande tarieven zijn een indicatie.</td>
-            </tr>
-          </tfoot>
-        </table>
-
-        <h4>Intervisietrajecten voor groepen tussen 4-6 personen</h4>
-        <table class="costs__overview">
-          <tr>
-            <td class="col__label">Per traject van 5 bijeenkomsten</td>
-            <td class="col__price">&euro; 2.000 (excl. BTW)</td>
-          </tr>
-          <tfoot>
-            <tr>
-              <td colspan="2">Afhankelijk van uw behoefte wordt in overleg een aanbod op maat gemaakt. De bovenstaande tarieven zijn een indicatie.</td>
-            </tr>
-          </tfoot>
-        </table>
 
       </div>
 

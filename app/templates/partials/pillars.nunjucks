@@ -21,7 +21,7 @@
         {% endif %}
         {% if pillar.subtext %}
           {% for paragraph in pillar.subtext %}
-            <p>{{paragraph}}</p>
+            <p>{{paragraph|safe}}</p>
           {% endfor %}
         {% endif %}
       </div>

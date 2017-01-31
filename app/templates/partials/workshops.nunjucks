@@ -2,8 +2,10 @@
 <div class="workshops">
   <div class="workshops__wrapper">
     <h2 class="workshops__title">{{workshops.title}}</h2>
-    <p class="workshops__text">
+    <p>
       {{workshops.text}}
     </p>
+    <p>Workshop <a href="{{filesUrl}}workshop-een-energieke-start.pdf" title="Een energieke start" target="_blank">&lsquo;Een energieke start&rsquo;</a></p>
+
   </div>
 </div>

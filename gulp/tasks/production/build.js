@@ -27,7 +27,8 @@ gulp.task('build:production', function(callback) {
   'rev:collect',
   [
     'webp:production',
-    'gzip'
+    'gzip',
+    'service-worker'
   ],
   callback);
 });

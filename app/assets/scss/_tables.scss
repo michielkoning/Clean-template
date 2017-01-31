@@ -10,6 +10,7 @@ table {
 td {
 	padding: .5em .5em;
 	vertical-align: top;
+	background: $gray-light;
 	&:first-child {
 		@include mq(small) {
 			width: 16em;
@@ -17,11 +18,8 @@ td {
 	}
 }
 
-tbody tr:nth-child(odd) td {
-	background: $gray-light;
-}
-
 tfoot td {
+	background: transparent;
 	font-size: .8em;
 	padding: 0 .5em;
 }
@@ -34,6 +32,9 @@ tfoot td {
 	td {
 		&:first-child:after {
 			content: ":";
+			tfoot & {
+				content: "";
+			}
 		}
 		&:first-child {
 			padding-bottom: 0;

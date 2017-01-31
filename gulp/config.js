@@ -215,5 +215,12 @@ module.exports = {
       src + '/files/.htaccess'
     ],
     dest: production
+  },
+  serviceWorker: {
+    files: [
+      production + '/index.html',
+      productionAssets + '/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff}'
+    ],
+    dest: production
   }
 };

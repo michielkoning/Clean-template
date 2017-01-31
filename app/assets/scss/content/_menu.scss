@@ -60,7 +60,7 @@
 
   &__link {
     display: block;
-    color: $text-color;
+    text-decoration: none;
     &.is-active  {
       text-decoration: underline;
     }
@@ -68,12 +68,10 @@
     &:focus,
     &:active,
     &:visited {
-      color: $text-color;
       text-decoration: none;
     }
 
     &:hover {
-      color: $text-color;
       text-decoration: underline;
     }
 
