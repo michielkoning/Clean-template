@@ -1,5 +1,6 @@
 .coaching {
   @extend %pillar;
+  background-color: #5f97bc;
   @include background-image("bg-coaching");
   background-position: left top;
   color: #fff;

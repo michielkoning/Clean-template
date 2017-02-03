@@ -1,6 +1,8 @@
 .development {
   @extend %pillar;
+  background-color: $brand-tertorary;
   @include background-image("bg-development");
+
   background-position: right center;
   color: #fff;
 

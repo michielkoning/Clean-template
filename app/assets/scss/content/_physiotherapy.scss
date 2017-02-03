@@ -1,5 +1,6 @@
 .physiotherapy {
   @extend %pillar;
+  background-color: $brand-primary;
   @include background-image("bg-fysio");
   background-position: right center;
   color: #fff;
