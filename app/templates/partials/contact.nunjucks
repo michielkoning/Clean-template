@@ -92,11 +92,11 @@
         <form action="ajax/mail.php" class="js-contact" method="POST">
           <label for="name">Naam *</label>
           <input type="text" name="name" id="name" required>
-          <label for="name">E-mailadres *</label>
+          <label for="email">E-mailadres *</label>
           <input type="email" name="email" id="email" required>
-          <label for="name">Telefoonnummer</label>
+          <label for="phone">Telefoonnummer</label>
           <input type="tel" name="phone" id="phone">
-          <label for="name">Bericht *</label>
+          <label for="message">Bericht *</label>
           <textarea name="message" id="message" cols="30" rows="4"></textarea>
           <input type="submit" value="Verzenden" class="contact__btn-send">
         </form>
