@@ -22,7 +22,7 @@
             <span itemprop="email">{{address.email}}</span></a>
 
         </div>
-        <a href="https://maps.google.com/?daddr=Ruimtevaart+50-56,Amersfoort" rel="noreferrer" target="_blank" class="contact__btn-route">Routebeschrijving</a>
+        <a href="https://maps.google.com/?daddr=Ruimtevaart+50-56,Amersfoort" rel="noopener" target="_blank" class="contact__btn-route">Routebeschrijving</a>
         <h3>Bedrijfsgegevens</h3>
         <h4>KVK nummer</h4>
         <p>
@@ -41,11 +41,11 @@
         </p>
         <p>Aangesloten bij
 
-          <a href="https://www.kngf.nl/" title="KNGF" rel="noreferrer" target="_blank">KNGF</a>
+          <a href="https://www.kngf.nl/" title="KNGF" rel="noopener" target="_blank">KNGF</a>
           &amp;
-          <a href="https://www.kngf.nl/vakgebied/kwaliteit/ckr.html" title="CKR" rel="noreferrer" target="_blank">CKR</a>
+          <a href="https://www.kngf.nl/vakgebied/kwaliteit/ckr.html" title="CKR" rel="noopener" target="_blank">CKR</a>
         </p>
-        <p><a href="https://www.bigregister.nl/" title="BIG" rel="noreferrer" target="_blank">BIG</a> geregistreerd</p>
+        <p><a href="https://www.bigregister.nl/" title="BIG" rel="noopener" target="_blank">BIG</a> geregistreerd</p>
       </div>
 
       <div class="contact__staff">
@@ -65,7 +65,7 @@
               </svg>
               <span itemprop="email">{{user.email}}</span>
             </a>
-            <a href="{{user.linkedin}}" class="contact__linkedin" target="_blank" rel="noreferrer">
+            <a href="{{user.linkedin}}" class="contact__linkedin" target="_blank" rel="noopener">
               <svg class="contact__icon">
                 <use xlink:href="assets/images/icons.svg#linkedin" />
               </svg>
@@ -74,12 +74,12 @@
           </div>
         {% endfor %}
         <div class="contact__follow-us">
-          <a href="{{address.linkedin}}" class="contact__social" target="_blank" rel="noreferrer">
+          <a href="{{address.linkedin}}" class="contact__social" target="_blank" rel="noopener">
             <svg class="contact__social-icon">
               <use xlink:href="assets/images/icons.svg#linkedin" />
             </svg>
           </a>
-          <a href="{{address.instagram}}" class="contact__social" target="_blank" rel="noreferrer">
+          <a href="{{address.instagram}}" class="contact__social" target="_blank" rel="noopener">
             <svg class="contact__social-icon">
               <use xlink:href="assets/images/icons.svg#instagram" />
             </svg>
