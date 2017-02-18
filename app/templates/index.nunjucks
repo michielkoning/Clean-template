@@ -51,7 +51,7 @@
 
 {% include "partials/contact.nunjucks" %}
 
-<script src="assets/scripts/functions.js"></script>
+<script src="assets/scripts/functions.js" defer></script>
 
 </body>
 </html>
